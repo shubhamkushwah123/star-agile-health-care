@@ -1,4 +1,4 @@
-package com.project.staragile.doctorify;
+package com.project.staragile.orthopedician;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

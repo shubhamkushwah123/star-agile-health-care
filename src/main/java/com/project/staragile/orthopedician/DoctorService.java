@@ -1,4 +1,4 @@
-package com.project.staragile.doctorify;
+package com.project.staragile.orthopedician;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -21,6 +21,10 @@ public class DoctorService {
 	public Doctor getDoctorDetails(String doctorRegistrationId) {
 		// TODO Auto-generated method stub
 		return doctorRepository.findById(doctorRegistrationId).get();
+	}
+	
+	public String sayHello() {
+		return "Hello from Doctor Shubham";
 	}
 
 }

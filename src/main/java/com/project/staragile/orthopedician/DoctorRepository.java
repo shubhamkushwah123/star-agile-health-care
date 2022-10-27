@@ -1,4 +1,4 @@
-package com.project.staragile.doctorify;
+package com.project.staragile.orthopedician;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

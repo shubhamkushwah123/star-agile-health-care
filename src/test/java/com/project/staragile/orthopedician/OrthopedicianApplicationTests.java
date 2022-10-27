@@ -1,13 +1,14 @@
-package com.project.staragile.doctorify;
+package com.project.staragile.orthopedician;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DoctorifyApplicationTests {
+class OrthopedicianApplicationTests {
 
+	
 	@Test
 	void contextLoads() {
 	}
-
+	
 }
