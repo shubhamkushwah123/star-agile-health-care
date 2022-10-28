@@ -1,4 +1,4 @@
-package com.project.staragile.orthopedician;
+package com.project.staragile;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class DoctorController {
+public class MedicureController {
 
 @Autowired
-DoctorService doctorService;
+MedicureService doctorService;
 
 @GetMapping("/hello")
 public String sayHello() {

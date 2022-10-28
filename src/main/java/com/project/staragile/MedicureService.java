@@ -1,13 +1,13 @@
-package com.project.staragile.orthopedician;
+package com.project.staragile;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class DoctorService {
+public class MedicureService {
 	
 	@Autowired
-	DoctorRepository doctorRepository;
+	MedicureRepository doctorRepository;
 	
 	public Doctor registerDoctor(Doctor doctor) {
 		return doctorRepository.save(doctor);

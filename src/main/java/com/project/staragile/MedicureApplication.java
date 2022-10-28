@@ -1,13 +1,13 @@
-package com.project.staragile.orthopedician;
+package com.project.staragile;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class OrthopedicianApplication {
+public class MedicureApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(OrthopedicianApplication.class, args);
+		SpringApplication.run(MedicureApplication.class, args);
 	}
 
 }
