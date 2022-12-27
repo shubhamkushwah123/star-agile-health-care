@@ -92,7 +92,7 @@
       <div class="row">
         <div class="col-md-6">
           <div class="form_container contact-form">
-            <form action="">
+            
               <div class="form-row">
                 <div class="col-lg-6">
                   <div>
@@ -112,11 +112,12 @@
                 <input type="text" class="message-box" placeholder="Message" />
               </div>
               <div class="btn_box">
-                <button>
+                <button onclick='document.getElementById("message").innerHTML="Email sent.";'>
                   SEND
                 </button>
+                <p id="message"></p>
               </div>
-            </form>
+            
           </div>
         </div>
         <div class="col-md-6">
