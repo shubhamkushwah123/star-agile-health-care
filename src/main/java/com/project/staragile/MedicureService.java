@@ -23,6 +23,11 @@ public class MedicureService {
 		return doctorRepository.findById(doctorRegistrationId).get();
 	}
 	
+	public Doctor registerDummyDoctor() {
+		Doctor doctor = new Doctor("MP1110","Shubham","Neurologist","15 Years");
+		return doctor;
+	}
+	
 	public String sayHello() {
 		return "Hello from Doctor Shubham";
 	}
